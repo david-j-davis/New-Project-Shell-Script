@@ -2,17 +2,17 @@
 
 #My shell script for getting your project started faster
 
-echo "Hello David, what sort of project do you want to start?"
+echo "Hello YOURNAME, what sort of project do you want to start?"
 printf " 1) wp (Wordpress) \n 2) ang (Angular) \n 3) angExp (Angular w/ Express) \n 4) exp (Express) \n 4) html \n:"
 read PROJECT_TYPE
-echo "Where would you like this project folder placed? (ie. sites, Dystrick)"
+echo "Where would you like this project folder placed? (ie. sites, Documents)"
 read ROOT_PATH
 echo "Folder name?"
 read FOLDER_NAME
-echo "Ok I will create you a folder at" /Users/daviddavis/$ROOT_PATH/$FOLDER_NAME
+echo "Ok I will create you a folder at" /Users/YOURNAME/$ROOT_PATH/$FOLDER_NAME
 
 ## make directory in specified path
-cd /Users/daviddavis/$ROOT_PATH/
+cd /Users/YOURNAME/$ROOT_PATH/
 mkdir $FOLDER_NAME
 cd $FOLDER_NAME
 
