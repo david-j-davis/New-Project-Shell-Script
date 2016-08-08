@@ -7,5 +7,5 @@ Bash shell script for starting your development projects from github repos, incl
 - Add more commands and projects to your liking
 
 Get started with Terminal or whatever other shell:
-    ./start-project.sh
+```./start-project.sh
 
