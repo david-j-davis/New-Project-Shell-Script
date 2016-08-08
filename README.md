@@ -6,3 +6,6 @@ Bash shell script for starting your development projects from github repos, incl
 - Modify github urls or whatever urls you use to replace those in this file
 - Add more commands and projects to your liking
 
+Get started with Terminal or whatever other shell:
+    ./start-project.sh
+
